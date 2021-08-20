@@ -10,6 +10,10 @@ html {
   box-sizing: inherit;
 }
 
+a:focus {
+  outline: 3px solid #0ff;
+}
+
 body {
   margin: 0;
 }
@@ -63,6 +67,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #522806;
 }
 
 .banner img {
